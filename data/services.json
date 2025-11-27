@@ -1,0 +1,244 @@
+{
+  "services": [
+    {
+      "id": "1",
+      "name": "Dubai City Tour",
+      "description": "Explore iconic landmarks like Burj Khalifa and Palm Jumeirah with a private driver.",
+      "category": "Tours",
+      "image": "dubai_tour.png",
+      "whatsappMessage": "Hi, I want to book Dubai City Tour."
+    },
+    {
+      "id": "2",
+      "name": "Airport Transfer",
+      "description": "Seamless pick-up/drop-off at Dubai International Airport with meet-and-greet.",
+      "category": "Transfers",
+      "image": "airport_transfer.png",
+      "whatsappMessage": "Hi, I want to book Airport Transfer."
+    },
+    {
+      "id": "3",
+      "name": "Luxury Car with Driver",
+      "description": "Premium vehicles like Mercedes or BMW for hourly/daily hires in Dubai.",
+      "category": "Luxury Rides",
+      "image": "luxury_car_with_driver.png",
+      "whatsappMessage": "Hi, I want to book Luxury Car with Driver in Dubai."
+    },
+    {
+      "id": "4",
+      "name": "Event Transportation",
+      "description": "Reliable transport for weddings, conferences, or parties across UAE.",
+      "category": "Events",
+      "image": "event_transportation.png",
+      "whatsappMessage": "Hi, I want to book Event Transportation."
+    },
+    {
+      "id": "5",
+      "name": "Corporate Chauffeur Service",
+      "description": "Professional drivers for business meetings and executive travel in Dubai/Abu Dhabi.",
+      "category": "Business",
+      "image": "corporate_chaufheur_service.png",
+      "whatsappMessage": "Hi, I want to book Corporate Chauffeur Service."
+    },
+    {
+      "id": "6",
+      "name": "Limousine Service",
+      "description": "Stretch limo for special occasions, nights out, or VIP arrivals.",
+      "category": "Luxury Rides",
+      "image": "limosuine_service.png",
+      "whatsappMessage": "Hi, I want to book Limousine Service in Dubai."
+    },
+    {
+      "id": "7",
+      "name": "Van Rental Dubai",
+      "description": "Spacious vans for groups or family trips around UAE cities.",
+      "category": "Group Travel",
+      "image": "van_rental.png",
+      "whatsappMessage": "Hi, I want to book Van Rental in Dubai."
+    },
+    {
+      "id": "8",
+      "name": "Abu Dhabi City Tour",
+      "description": "Guided tour of Sheikh Zayed Mosque and Louvre Abu Dhabi with driver.",
+      "category": "Tours",
+      "image": "abu_dhabi_tour.png",
+      "whatsappMessage": "Hi, I want to book Abu Dhabi City Tour."
+    },
+    {
+      "id": "9",
+      "name": "Wedding Car Hire",
+      "description": "Elegant cars for your special day, including decorations and chauffeur.",
+      "category": "Events",
+      "image": "wedding_car.png",
+      "whatsappMessage": "Hi, I want to book Wedding Car Hire."
+    },
+    {
+      "id": "10",
+      "name": "Business Trip Transport",
+      "description": "Tailored itineraries for corporate travel between Dubai, Sharjah, and beyond.",
+      "category": "Business",
+      "image": "business_trip.png",
+      "whatsappMessage": "Hi, I want to book Business Trip Transport."
+    },
+    {
+      "id": "11",
+      "name": "Luxury Airport Transfer",
+      "description": "VIP lounge access and luxury ride from airport to your hotel.",
+      "category": "Transfers",
+      "image": "luxury_airport.png",
+      "whatsappMessage": "Hi, I want to book Luxury Airport Transfer."
+    },
+    {
+      "id": "12",
+      "name": "Family Tour",
+      "description": "Child-friendly tours with spacious vehicles for UAE adventures.",
+      "category": "Tours",
+      "image": "family_car.png",
+      "whatsappMessage": "Hi, I want to book Family Tour."
+    },
+    {
+      "id": "13",
+      "name": "Chauffeur Service in Sharjah",
+      "description": "Local expert drivers for Sharjah visits and transfers.",
+      "category": "Local Services",
+      "image": "sharjah-chauffeur.jpg",
+      "whatsappMessage": "Hi, I want to book Chauffeur Service in Sharjah."
+    },
+    {
+      "id": "14",
+      "name": "Hotel Transfers",
+      "description": "Door-to-door service from hotels to attractions or airports.",
+      "category": "Transfers",
+      "image": "hotel-transfer.jpg",
+      "whatsappMessage": "Hi, I want to book Hotel Transfers."
+    },
+    {
+      "id": "15",
+      "name": "Sports Events Transport",
+      "description": "Fast access to Dubai Autodrome or cricket stadiums with parking assistance.",
+      "category": "Events",
+      "image": "sport_event.png",
+      "whatsappMessage": "Hi, I want to book Sports Events Transport."
+    },
+    {
+      "id": "16",
+      "name": "24/7 Availability",
+      "description": "Round-the-clock chauffeur service for emergencies or late-night rides.",
+      "category": "General",
+      "image": "24-7-service.png",
+      "whatsappMessage": "Hi, I want to book 24/7 Availability service."
+    },
+    {
+      "id": "17",
+      "name": "Birthday Party Transport",
+      "description": "Fun rides for celebrations with themed vehicles.",
+      "category": "Events",
+      "image": "birthday-party.png",
+      "whatsappMessage": "Hi, I want to book Birthday Party Transport."
+    },
+    {
+      "id": "18",
+      "name": "Meet and Greet Service",
+      "description": "Personalized welcome at airports with signage and assistance.",
+      "category": "Transfers",
+      "image": "meet-greet.png",
+      "whatsappMessage": "Hi, I want to book Meet and Greet Service."
+    },
+    {
+      "id": "19",
+      "name": "Minibus Rental",
+      "description": "For large groups—up to 20 passengers for tours or events.",
+      "category": "Group Travel",
+      "image": "minibus-rental.png",
+      "whatsappMessage": "Hi, I want to book Minibus Rental."
+    },
+    {
+      "id": "20",
+      "name": "Sightseeing Tours",
+      "description": "Custom routes covering Dubai's beaches, deserts, and souks.",
+      "category": "Tours",
+      "image": "sightseeing.jpg",
+      "whatsappMessage": "Hi, I want to book Sightseeing Tours."
+    },
+    {
+      "id": "21",
+      "name": "VIP Treatment",
+      "description": "Exclusive perks like priority access and premium amenities.",
+      "category": "Luxury Rides",
+      "image": "nisan1.jpeg",
+      "whatsappMessage": "Hi, I want to book VIP Treatment."
+    },
+    {
+      "id": "22",
+      "name": "Defensive Driving",
+      "description": "Trained drivers ensuring safe, cautious journeys in UAE traffic.",
+      "category": "Safety",
+      "image": "defensive-driving.jpg",
+      "whatsappMessage": "Hi, I want to book Defensive Driving service."
+    },
+    {
+      "id": "23",
+      "name": "Car Hire",
+      "description": "Self-drive or chauffeured economy to luxury cars in Dubai.",
+      "category": "Rentals",
+      "image": "car-hire.jpg",
+      "whatsappMessage": "Hi, I want to book Car Hire."
+    },
+    {
+      "id": "24",
+      "name": "Luxury Bus Service",
+      "description": "Coach rentals for corporate outings or large events.",
+      "category": "Group Travel",
+      "image": "luxury-bus.jpg",
+      "whatsappMessage": "Hi, I want to book Luxury Bus Service."
+    },
+    {
+      "id": "25",
+      "name": "Private Chauffeur",
+      "description": "Dedicated driver for the entire duration of your stay.",
+      "category": "Local Services",
+      "image": "private-chauffeur.jpg",
+      "whatsappMessage": "Hi, I want to book Private Chauffeur."
+    },
+    {
+      "id": "26",
+      "name": "Corporate Events",
+      "description": "Fleet management for company gatherings and team buildings.",
+      "category": "Business",
+      "image": "corporate-events.jpg",
+      "whatsappMessage": "Hi, I want to book Corporate Events transport."
+    },
+    {
+      "id": "27",
+      "name": "Special Occasions",
+      "description": "Tailored rides for anniversaries, graduations, or festivals.",
+      "category": "Events",
+      "image": "special-occasions.jpg",
+      "whatsappMessage": "Hi, I want to book Special Occasions transport."
+    },
+    {
+      "id": "28",
+      "name": "Business Meetings",
+      "description": "Punctual transport to offices and conference centers.",
+      "category": "Business",
+      "image": "business-meetings.png",
+      "whatsappMessage": "Hi, I want to book Business Meetings transport."
+    },
+    {
+      "id": "29",
+      "name": "Luxury Vehicles",
+      "description": "Range Rovers, Porsches, and more for ultimate comfort.",
+      "category": "Luxury Rides",
+      "image": "gmc1.jpeg",
+      "whatsappMessage": "Hi, I want to book Luxury Vehicles."
+    },
+    {
+      "id": "30",
+      "name": "City Travel",
+      "description": "Hop-on-hop-off style for daily commutes in Dubai.",
+      "category": "Tours",
+      "image": "city-travel.png",
+      "whatsappMessage": "Hi, I want to book City Travel."
+    }
+  ]
+}

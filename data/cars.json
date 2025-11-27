@@ -1,0 +1,139 @@
+{
+"cars": [
+{
+"id": "1",
+"name": "Toyota Coaster",
+"model": "30 Seater Minibus",
+"year": 2022,
+"price": { "daily": 1200, "weekly": 7500, "monthly": 26400 },
+"image": "toyota-coaster-white-front.jpeg",
+"type": "Minibus",
+"features": ["30 Seater Capacity", "High-Capacity AC System", "Spacious Luggage Area", "Driver & Guide Microphone", "Power Steering", "ABS Brakes"],
+"gallery": ["/images/cars/toyota-coaster-white-front.jpeg", "/images/cars/toyota-coaster-white-front1.jpeg", "/images/cars/toyota-coaster-white-rear.jpg"]
+},
+{
+"id": "2",
+"name": "Toyota Fortuner",
+"model": "2.8L Diesel SUV",
+"year": 2023,
+"price": { "daily": 450, "weekly": 2800, "monthly": 4200 },
+"image": "toyota-fortuner-white-front.jpeg",
+"type": "SUV",
+"features": ["4x4 Drive", "Leather Seats", "Sunroof", "Apple CarPlay/Android Auto", "Cruise Control", "Rear View Camera"],
+"gallery": ["/images/cars/toyota-fortuner-white-front.jpeg", "/images/cars/toyota-fortuner-white-front1.jpeg", "/images/cars/toyota-fortuner-white-front2.jpeg", "/images/cars/toyota-fortuner-white-front3.jpeg"]
+},
+{
+"id": "3",
+"name": "Toyota Hiace",
+"model": "15 Seater Van",
+"year": 2022,
+"price": { "daily": 380, "weekly": 2400, "monthly": 5000 },
+"image": "toyota-hiace-white-curtains4.jpeg",
+"type": "Van",
+"features": ["15 Seater Capacity", "Separate Rear AC", "Power Steering", "ABS Brakes", "Automatic Transmission", "Spacious Interior"],
+"gallery": ["/images/cars/toyota-hiace-white-curtains2.jpeg", "/images/cars/toyota-hiace-white-curtains3.jpeg", "/images/cars/toyota-hiace-white-curtains1.jpeg"]
+},
+{
+"id": "4",
+"name": "GMC Yukon",
+"model": "SLT SUV",
+"year": 2023,
+"price": { "daily": 650, "weekly": 4000, "monthly": 13000 },
+"image": "gmc-yukon-black-exterior3.jpeg",
+"type": "SUV",
+"features": ["Full-Time 4WD", "Panoramic Sunroof", "Adaptive Cruise Control", "360° Camera", "Apple CarPlay/Android Auto", "Advanced Safety Suite"],
+"gallery": ["/images/cars/gmc-yukon-black-exterior1.jpeg","/images/cars/gmc-yukon-black-exterior2.jpeg","/images/cars/gmc-yukon-black-exterior4.jpeg"]
+},
+{
+"id": "5",
+"name": "Nissan Patrol",
+"model": "Y62 V6 SUV",
+"year": 2023,
+"price": { "daily": 500, "weekly": 3000, "monthly": 10800 },
+"image": "nissan-patrol-black-front.jpeg",
+"type": "SUV",
+"features": ["All-Mode 4WD", "Premium Leather Seats", "Large Infotainment Screen", "Blind Spot Monitor", "7 Seater", "Cool Box"],
+"gallery": ["/images/cars/nissan-patrol-black-front1.jpeg", "/images/cars/nissan-patrol-black-front4.jpeg", "/images/cars/nissan-patrol-black-front3.jpeg"]
+},
+
+{
+"id": "12",
+"name": "Nissan Patrol",
+"model": "Y62 Gray with Burj Khalifa View",
+"year": 2023,
+"price": { "daily": 520, "weekly": 3100, "monthly": 11200 },
+"image": "nisan1.jpeg",
+"type": "SUV",
+"features": ["All-Mode 4WD", "Dubai Skyline View Ready", "Premium Leather", "Infotainment Screen", "Blind Spot Monitor", "7 Seater"],
+"gallery": ["/images/cars/nissan-patrol-gray-burj.jpg", "/images/cars/luxury-coach-bus-luggage.jpg"]
+},
+
+{
+"id": "14",
+"name": "Toyota Land Cruiser",
+"model": "VX-R Edition",
+"year": 2023,
+"price": { "daily": 620, "weekly": 3700, "monthly": 12500 },
+"image": "toyota-landcruiser-vxr-white1.jpeg",
+"type": "SUV",
+"features": ["VX-R Package", "Two-Row Seating", "Off-Road Suspension", "LED Lights", "Power Tailgate", "Wireless Charging"],
+"gallery": ["/images/cars/toyota-landcruiser-vxr-white1.jpeg", "/images/cars/toyota-landcruiser-vxr-side2.jpeg"]
+},
+{
+"id": "15",
+"name": "Nissan Armada",
+"model": "Platinum Reserve",
+"year": 2024,
+"price": { "daily": 650, "weekly": 3900, "monthly": 11800 },
+"image": "nissan_armada_silver1.jpeg",
+"type": "SUV",
+"features": ["Platinum Reserve", "Quilted Leather", "Climate-Controlled Seats", "Remote Start", "Around View Monitor", "8 Seater"],
+"gallery": ["/images/cars/nissan-armada-platinum-gray.jpg", "/images/cars/nissan-armada-silver-interior.jpg"]
+},
+{
+"id": "16",
+"name": "Luxury Coach Bus",
+"model": "50-53 Seater (Full-Size Coach)",
+"year": 2024,
+"price": { "daily": 1400, "weekly": 7500, "monthly": 20000 },
+"image": "luxury-coach-bus-exterior.jpeg",
+"type": "Bus/Coach",
+"features": ["50-53 Seater Capacity", "High-Back Reclining Seats", "Individual AC Vents", "Onboard Entertainment (TV/DVD)", "Large Underfloor Luggage Bays", "Professional Chauffeur Included"],
+"gallery": ["/images/cars/luxury-coach-bus-exterior1.jpeg", "/images/cars/luxury-coach-bus-exterior2.jpeg", "/images/cars/luxury-coach-bus-luggage.jpg"]
+},
+{
+"id": "17",
+"name": "Luxury Coach Bus",
+"model": "50-53 Seater VIP Coach",
+"year": 2024,
+"price": { "daily": 1400, "weekly": 7500, "monthly": 20000 },
+"image": "luxury-coach-bus-exterior_black1.jpeg",
+"type": "Bus/Coach",
+"features": ["50-53 Seater Capacity", "High-Back Reclining Seats", "Individual AC Vents/Climate Control", "Onboard Entertainment (TV/DVD)", "Large Underfloor Luggage Bays", "Microphone System for Guide", "USB Charging Ports on Seats"],
+"gallery": ["/images/cars/luxury-coach-bus-exterior_black.jpeg", "/images/cars/luxury-coach-bus-exterior_black2.jpeg", "/images/cars/luxury-coach-bus-exterior3.jpeg"]
+},
+{
+"id": "18",
+"name": "Nissan Terra",
+"model": "2.5L 7-Seater SUV (X-Terra)",
+"year": 2024,
+"price": { "daily": 335, "weekly": 2010, "monthly": 4200 },
+"image": "nissan-terra-black-dune-front.jpeg",
+"type": "SUV",
+"features": ["7 Seater Capacity", "4x4 Drive with Differential Lock", "Off-Road Capabilities", "Apple CarPlay/Android Auto", "Intelligent Mobility Safety Suite", "Spacious Interior & High Ground Clearance"],
+"gallery": ["/images/cars/nissan-terra-black-dune-front1.jpeg", "/images/cars/nissan-terra-side.jpg", "/images/cars/nissan-terra-interior.jpg"]
+},
+{
+"id": "19",
+"name": "Mercedes Sprinter VIP",
+"model": "15-18 Seater Executive Van",
+"year": 2024,
+"price": { "daily": 2300, "weekly": 13500, "monthly": 36000 },
+"image": "mercedes-sprinter-vip-black.jpeg",
+"type": "VIP Van",
+"features": ["15-18 Seater Capacity", "Chauffeur Driven Only", "Reclining Leather Seats", "High-Speed Wi-Fi", "Mini-Fridge/Cool Box", "Large Flat-Screen Monitor", "USB Charging Ports"],
+"gallery": ["/images/cars/mercedes-sprinter-vip-black1.jpeg","/images/cars/mercedes-sprinter-vip-black.jpeg", "/images/cars/mercedes-sprinter-vip-black2.jpeg"]
+}
+]
+}
+
