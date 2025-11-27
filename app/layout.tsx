@@ -16,9 +16,9 @@ export const metadata: Metadata = {
     icon: "/logo.png",
   },
   // Canonical URL to prevent duplicates
-  alternates: {
-    canonical: 'https://dubaicar-rental.com',
-  },
+  // alternates: {
+  //   canonical: 'https://dubaicar-rental.com',
+  // },
   // Robots for indexing
   robots: {
     index: true,
@@ -31,34 +31,34 @@ export const metadata: Metadata = {
       'max-snippet': -1,
     },
   },
-  openGraph: {
-    title: 'Dubai Car Rental with Driver - Luxury & Affordable Hire in UAE',
-    description: 'Rent cars in Dubai & UAE with driver: SUVs, sedans, minibuses. Cheapest rates for daily, weekly, monthly. Book luxury Toyota, Nissan rentals now.',
-    images: [
-      {
-        url: '/hero_section_image.jpg',
-        width: 1200,
-        height: 630,
-        alt: 'Dubai Car Rental with Driver - Luxury SUVs in UAE',
-      },
-    ],
-    url: 'https://dubaicar-rental.com',
-    siteName: 'Dubai Car Rental',
-    locale: 'en_US',
-    type: 'website',
-  },
+  // openGraph: {
+  //   title: 'Dubai Car Rental with Driver - Luxury & Affordable Hire in UAE',
+  //   description: 'Rent cars in Dubai & UAE with driver: SUVs, sedans, minibuses. Cheapest rates for daily, weekly, monthly. Book luxury Toyota, Nissan rentals now.',
+  //   images: [
+  //     {
+  //       url: '/hero_section_image.jpg',
+  //       width: 1200,
+  //       height: 630,
+  //       alt: 'Dubai Car Rental with Driver - Luxury SUVs in UAE',
+  //     },
+  //   ],
+  //   url: 'https://dubaicar-rental.com',
+  //   siteName: 'Dubai Car Rental',
+  //   locale: 'en_US',
+  //   type: 'website',
+  // },
   // Twitter Cards for X (Twitter) shares
-  twitter: {
-    card: 'summary_large_image',
-    title: 'Dubai Car Rental with Driver - Affordable UAE Hire',
-    description: 'Rent luxury cars like Toyota Fortuner & Nissan Patrol in Dubai. With driver, daily/weekly/monthly. Book now!',
-    images: ['/hero_section_image.jpg'],
-    site: '@dubai_car_rental', // Add your Twitter handle if available
-  },
+  // twitter: {
+  //   card: 'summary_large_image',
+  //   title: 'Dubai Car Rental with Driver - Affordable UAE Hire',
+  //   description: 'Rent luxury cars like Toyota Fortuner & Nissan Patrol in Dubai. With driver, daily/weekly/monthly. Book now!',
+  //   images: ['/hero_section_image.jpg'],
+  //   site: '@dubai_car_rental', // Add your Twitter handle if available
+  // },
   // Verification for Google Search Console (add your code)
-  verification: {
-    google: 'your-google-verification-code.html', // Replace with actual
-  },
+  // verification: {
+  //   google: 'your-google-verification-code.html', // Replace with actual
+  // },
 }
 
 export default function RootLayout({
