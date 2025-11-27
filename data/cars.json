@@ -26,25 +26,14 @@
 "id": "15",
 "name": "Nissan Patrol",
 "model": "15-18 Seater Executive Van",
-"year": 2024,
-"price": { "daily": 1300, "halfDay": 700 },
+"year": 2020,
+"price": { "daily": 900, "halfDay": 400 },
 "image": "mercedes-sprinter-vip-black.jpeg",
 "type": "VIP Van",
 "features": ["15-18 Seater Capacity", "Chauffeur Driven Only", "Reclining Leather Seats", "High-Speed Wi-Fi", "Mini-Fridge/Cool Box", "Large Flat-Screen Monitor", "USB Charging Ports"],
 "gallery": ["/images/cars/mercedes-sprinter-vip-black1.jpeg","/images/cars/mercedes-sprinter-vip-black.jpeg", "/images/cars/mercedes-sprinter-vip-black2.jpeg"]
 }
 ,
-{
-"id": "12",
-"name": "Land Cruiser",
-"model": "Platinum Reserve",
-"year": 2024,
-"price": { "daily": 650, "halfDay": 390 },
-"image": "nissan_armada_silver1.jpeg",
-"type": "SUV",
-"features": ["Platinum Reserve", "Quilted Leather", "Climate-Controlled Seats", "Remote Start", "Around View Monitor", "8 Seater"],
-"gallery": ["/images/cars/nissan-armada-platinum-gray.jpg", "/images/cars/nissan-armada-silver-interior.jpg"]
-},
 
 
 
@@ -77,7 +66,7 @@
 "name": "Toyota Fortuner",
 "model": "2.8L Diesel SUV",
 "year": 2023,
-"price": { "daily": 500, "halfDay": 300 },
+"price": { "daily": 600, "halfDay": 300 },
 "image": "toyota-fortuner-white-front.jpeg",
 "type": "SUV",
 "features": ["4x4 Drive", "Leather Seats", "Sunroof", "Apple CarPlay/Android Auto", "Cruise Control", "Rear View Camera"],
@@ -119,8 +108,8 @@
 },
 {
 "id": "17",
-"name": "Mercedes S.Class ",
-"model": "Vogue SUV",
+"name": "Mercedes S Class ",
+"model": "",
 "year": 2023,
 "price": { "daily": 2500, "halfDay": 1200 },
 "image": "mercedes_s_class.jpeg",
@@ -147,7 +136,7 @@
 "name": "Mercedes Sprinter VIP",
 "model": "50-53 Seater VIP Coach",
 "year": 2024,
-"price": { "daily": 1400, "halfDay": 1200 },
+"price": { "daily": 2400, "halfDay": 1200 },
 "image": "luxury-coach-bus-exterior_black1.jpeg",
 "type": "Bus/Coach",
 "features": ["50-53 Seater Capacity", "High-Back Reclining Seats", "Individual AC Vents/Climate Control", "Onboard Entertainment (TV/DVD)", "Large Underfloor Luggage Bays", "Microphone System for Guide", "USB Charging Ports on Seats"],
@@ -181,7 +170,7 @@
 "name": "Toyota Coaster",
 "model": "30 Seater Minibus",
 "year": 2022,
-"price": { "daily": 600, "halfDay": 350 },
+"price": { "daily": 900, "halfDay": 450 },
 "image": "toyota-coaster-white-front.jpeg",
 "type": "Minibus",
 "features": ["30 Seater Capacity", "High-Capacity AC System", "Spacious Luggage Area", "Driver & Guide Microphone", "Power Steering", "ABS Brakes"],
