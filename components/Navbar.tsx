@@ -26,8 +26,8 @@ export default function Navbar() {
             <Link href="/services" className="hover:text-primary transition">Services</Link>
             <Link href="/contact" className="hover:text-primary transition">Contact</Link>
           </div>
-          <div className="flex items-center space-x-4">
-            <button onClick={toggleDarkMode} className="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700">
+          {/* <div className="flex items-center space-x-4">
+            <button onClick={toggleDarkMode} className="p-2 rounded-lg hover:bg-gray-300 dark:hover:bg-gray-700">
               {darkMode ? <FiSun /> : <FiMoon />}
             </button>
             <button
@@ -36,13 +36,19 @@ export default function Navbar() {
             >
               {isOpen ? <FiX /> : <FiMenu />}
             </button>
-          </div>
+          </div> */}
         </div>
         {isOpen && (
           <div className="md:hidden py-2 space-y-2">
             <Link href="/" className="block hover:text-primary px-2 py-1" onClick={() => setIsOpen(false)}>Home</Link>
             <Link href="/cars" className="block hover:text-primary px-2 py-1" onClick={() => setIsOpen(false)}>Cars</Link>
+           
             <Link href="/about" className="block hover:text-primary px-2 py-1" onClick={() => setIsOpen(false)}>About</Link>
+           
+            <Link href="/services" className="block hover:text-primary px-2 py-1" onClick={() => setIsOpen(false)}>Services</Link>
+
+
+
             <Link href="/contact" className="block hover:text-primary px-2 py-1" onClick={() => setIsOpen(false)}>Contact</Link>
           </div>
         )}

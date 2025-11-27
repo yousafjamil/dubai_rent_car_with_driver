@@ -11,7 +11,7 @@ interface Car {
   name: string
   model: string
   year: number
-  price: { daily: number; weekly: number; monthly: number }
+  price: { daily: number; halfDay: number }
   image: string
   type: string
   features: string[]
@@ -49,8 +49,7 @@ export default async function CarDetails({ params }: Props) { // Made async
               <h3 className="font-semibold mb-4">Pricing</h3>
               <div className="space-y-2">
                 <p className="text-lg">Daily: <span className="font-bold text-secondary">AED {car.price.daily}</span></p>
-                <p className="text-lg">Weekly: <span className="font-bold text-secondary">AED {car.price.weekly}</span></p>
-                <p className="text-lg">Monthly: <span className="font-bold text-secondary">AED {car.price.monthly}</span></p>
+                <p className="text-lg">Half Day: <span className="font-bold text-secondary">AED {car.price.halfDay}</span></p>
               </div>
             </div>
 
