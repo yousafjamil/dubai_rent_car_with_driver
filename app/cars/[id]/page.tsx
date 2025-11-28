@@ -11,22 +11,31 @@ interface Car {
   name: string
   model: string
   year: number
-  price: { daily: number; halfDay: number }
+  price: { 
+    daily: number; 
+    halfDay: number;
+    additionalHour?: number; // Optional based on previous code
+  } 
   image: string
-  type: string
+  type: string // This MUST be present in all JSON objects
   features: string[]
   gallery: string[]
+  // THESE MUST BE INCLUDED AND MARKED OPTIONAL TO MATCH YOUR JSON
+  drivetrain?: string 
+  fuelType?: string 
+  transmission?: string
 }
 
 interface Props {
-  params: Promise<{ id: string }> // Updated: params is now a Promise
+  params: Promise<{ id: string }> 
 }
 
 export default async function CarDetails({ params }: Props) { // Made async
   const { id } = await params; // Await and destructure
 
-  const car: Car | undefined = cars.find(c => c.id === id) // Now uses awaited 'id'
+ const car: Car | undefined = cars.find(c => c.id === id) 
 
+  
   if (!car) {
     notFound()
   }

@@ -48,6 +48,7 @@
   "name": "Mercedes-AMG G 63",
   "model": "G-Wagon",
   "year": 2024, 
+  
   "price": { "daily": 2000, "halfDay": 1800 }, 
   "image": "mercedes-amg-g63-white-front1.jpeg", 
   "type": "Luxury SUV",
@@ -78,6 +79,7 @@
   "name": "Toyota Land Cruiser",
   "model": "300 Series VXR",
   "year": 2024, 
+  "type": "Luxury SUV",
   "price": { "daily": 1600, "halfDay": 850 }, 
   "image": "toyota-landcruiser-vxr-white-rear.jpeg", 
   "features": [
@@ -193,6 +195,7 @@
   "name": "Range Rover Sport",
   "model": "P400 Dynamic", 
   "year": 2025,
+  "type": "Luxury SUV",
   "price": { "daily": 1500, "halfDay": 1500 }, 
   "image": "range-rover-sport-black-dubai1.jpeg", 
   "features": [
