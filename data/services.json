@@ -80,14 +80,7 @@
       "image": "business_trip.png",
       "whatsappMessage": "Hi, I want to book Business Trip Transport."
     },
-    {
-      "id": "11",
-      "name": "Luxury Airport Transfer",
-      "description": "VIP lounge access and luxury ride from airport to your hotel.",
-      "category": "Transfers",
-      "image": "luxury_airport.png",
-      "whatsappMessage": "Hi, I want to book Luxury Airport Transfer."
-    },
+    
     {
       "id": "12",
       "name": "Family Tour",
@@ -96,22 +89,7 @@
       "image": "family_car.png",
       "whatsappMessage": "Hi, I want to book Family Tour."
     },
-    {
-      "id": "13",
-      "name": "Chauffeur Service in Sharjah",
-      "description": "Local expert drivers for Sharjah visits and transfers.",
-      "category": "Local Services",
-      "image": "sharjah-chauffeur.jpg",
-      "whatsappMessage": "Hi, I want to book Chauffeur Service in Sharjah."
-    },
-    {
-      "id": "14",
-      "name": "Hotel Transfers",
-      "description": "Door-to-door service from hotels to attractions or airports.",
-      "category": "Transfers",
-      "image": "hotel-transfer.jpg",
-      "whatsappMessage": "Hi, I want to book Hotel Transfers."
-    },
+   
     {
       "id": "15",
       "name": "Sports Events Transport",
@@ -152,14 +130,7 @@
       "image": "minibus-rental.png",
       "whatsappMessage": "Hi, I want to book Minibus Rental."
     },
-    {
-      "id": "20",
-      "name": "Sightseeing Tours",
-      "description": "Custom routes covering Dubai's beaches, deserts, and souks.",
-      "category": "Tours",
-      "image": "sightseeing.jpg",
-      "whatsappMessage": "Hi, I want to book Sightseeing Tours."
-    },
+    
     {
       "id": "21",
       "name": "VIP Treatment",
@@ -168,54 +139,7 @@
       "image": "nisan1.jpeg",
       "whatsappMessage": "Hi, I want to book VIP Treatment."
     },
-    {
-      "id": "22",
-      "name": "Defensive Driving",
-      "description": "Trained drivers ensuring safe, cautious journeys in UAE traffic.",
-      "category": "Safety",
-      "image": "defensive-driving.jpg",
-      "whatsappMessage": "Hi, I want to book Defensive Driving service."
-    },
-    {
-      "id": "23",
-      "name": "Car Hire",
-      "description": "Self-drive or chauffeured economy to luxury cars in Dubai.",
-      "category": "Rentals",
-      "image": "car-hire.jpg",
-      "whatsappMessage": "Hi, I want to book Car Hire."
-    },
-    {
-      "id": "24",
-      "name": "Luxury Bus Service",
-      "description": "Coach rentals for corporate outings or large events.",
-      "category": "Group Travel",
-      "image": "luxury-bus.jpg",
-      "whatsappMessage": "Hi, I want to book Luxury Bus Service."
-    },
-    {
-      "id": "25",
-      "name": "Private Chauffeur",
-      "description": "Dedicated driver for the entire duration of your stay.",
-      "category": "Local Services",
-      "image": "private-chauffeur.jpg",
-      "whatsappMessage": "Hi, I want to book Private Chauffeur."
-    },
-    {
-      "id": "26",
-      "name": "Corporate Events",
-      "description": "Fleet management for company gatherings and team buildings.",
-      "category": "Business",
-      "image": "corporate-events.jpg",
-      "whatsappMessage": "Hi, I want to book Corporate Events transport."
-    },
-    {
-      "id": "27",
-      "name": "Special Occasions",
-      "description": "Tailored rides for anniversaries, graduations, or festivals.",
-      "category": "Events",
-      "image": "special-occasions.jpg",
-      "whatsappMessage": "Hi, I want to book Special Occasions transport."
-    },
+
     {
       "id": "28",
       "name": "Business Meetings",

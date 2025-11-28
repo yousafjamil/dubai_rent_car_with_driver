@@ -175,8 +175,21 @@
 "type": "Minibus",
 "features": ["30 Seater Capacity", "High-Capacity AC System", "Spacious Luggage Area", "Driver & Guide Microphone", "Power Steering", "ABS Brakes"],
 "gallery": ["/images/cars/toyota-coaster-white-front.jpeg", "/images/cars/toyota-coaster-white-front1.jpeg", "/images/cars/toyota-coaster-white-rear.jpg"]
+},
+
+{
+"id": "10",
+"name": "Nissan Patrol",
+"model": "SUV",
+"year": 2025,
+"price": { "daily": 1300, "halfDay": 700 },
+"image": "nisan1.jpeg",
+"type": "SUV",
+"features": ["All-Mode 4WD", "Dubai Skyline View Ready", "Premium Leather", "Infotainment Screen", "Blind Spot Monitor", "7 Seater"],
+"gallery": ["/images/cars/nissan-patrol-gray-burj.jpg", "/images/cars/luxury-coach-bus-luggage.jpg"],
+"drivetrain": "V8 or V6 4x4",
+"fuelType": "Gasoline / Petrol",
+"transmission": "Automatic"
 }
-
-
 ]
 }

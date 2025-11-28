@@ -1,25 +1,12 @@
 {
 "cars": [
-{
-"id": "10",
-"name": "Nissan Patrol",
-"model": "SUV",
-"year": 2025,
-"price": { "daily": 1300, "halfDay": 700 },
-"image": "nisan1.jpeg",
-"type": "SUV",
-"features": ["All-Mode 4WD", "Dubai Skyline View Ready", "Premium Leather", "Infotainment Screen", "Blind Spot Monitor", "7 Seater"],
-"gallery": ["/images/cars/nissan-patrol-gray-burj.jpg", "/images/cars/luxury-coach-bus-luggage.jpg"],
-"drivetrain": "V8 or V6 4x4",
-"fuelType": "Gasoline / Petrol",
-"transmission": "Automatic"
-},
+
 {
 "id": "5",
 "name": "Nissan Patrol",
 "model": "V6 SUV",
-"year": 2023,
-"price": { "daily": 1300, "halfDay": 700 },
+"year": 2025,
+"price": { "daily": 1200, "halfDay": 700 },
 "image": "nissan-patrol-black-front.jpeg",
 "type": "SUV",
 "features": ["All-Mode 4WD", "Premium Leather Seats", "Large Infotainment Screen", "Blind Spot Monitor", "7 Seater", "Cool Box"],
@@ -33,11 +20,11 @@
 "name": "Nissan Patrol",
 "model": "SUV",
 "year": 2020,
-"price": { "daily": 900, "halfDay": 400 },
+"price": { "daily": 800, "halfDay": 400 },
 "image": "mercedes-sprinter-vip-black.jpeg",
-"type": "VIP Van",
+"type": "",
 "features": ["7 Seater Capacity", "Chauffeur Driven Only", "Reclining Leather Seats", "High-Speed Wi-Fi", "Mini-Fridge/Cool Box", "Large Flat-Screen Monitor", "USB Charging Ports"],
-"gallery": ["/images/cars/mercedes-sprinter-vip-black1.jpeg","/images/cars/mercedes-sprinter-vip-black.jpeg", "/images/cars/mercedes-sprinter-vip-black2.jpeg"],
+"gallery": ["/images/cars/mercedes-sprinter-vip-black1.jpeg","/images/cars/mercedes-sprinter-vip-black.jpeg"],
 "drivetrain": "V6/V8",
 "fuelType": "Diesel / Petrol",
 "transmission": "Automatic"
@@ -49,7 +36,7 @@
   "model": "G-Wagon",
   "year": 2024, 
   
-  "price": { "daily": 2000, "halfDay": 1800 }, 
+  "price": { "daily": 1700, "halfDay": 1800 }, 
   "image": "mercedes-amg-g63-white-front1.jpeg", 
   "type": "Luxury SUV",
   "features": [
@@ -62,12 +49,7 @@
   ],
   "gallery": [
     "/images/cars/mercedes-amg-g63-white-front1.jpeg", 
-    "/images/cars/mercedes-amg-g63-white-rear2.jpeg",
-    "/images/cars/mercedes-amg-g63-white-rear3.jpeg",
-    "/images/cars/mercedes-amg-g63-white-interior4.jpeg",
-    "/images/cars/mercedes-amg-g63-white-interior5.jpeg"
-             
- 
+    "/images/cars/mercedes-amg-g63-white-front2.jpeg"
   ],
   "drivetrain": "V8 BiTurbo 4x4",
   "fuelType": "Gasoline / Petrol",
@@ -78,9 +60,9 @@
   "id": "18",
   "name": "Toyota Land Cruiser",
   "model": "300 Series VXR",
-  "year": 2024, 
+  "year": 2025, 
   "type": "Luxury SUV",
-  "price": { "daily": 1600, "halfDay": 850 }, 
+  "price": { "daily": 1300, "halfDay": 850 }, 
   "image": "toyota-landcruiser-vxr-white-rear.jpeg", 
   "features": [
     "VXR Premium Package",
@@ -105,13 +87,13 @@
 {
 "id": "9",
 "name": "Nissan Terra",
-"model": "2.5L 7-Seater SUV (X-Terra)",
+"model": "2.7L 7-Seater SUV (X-Terra)",
 "year": 2024,
 "price": { "daily": 600, "halfDay": 350 },
 "image": "nissan-terra-black-dune-front.jpeg",
 "type": "SUV",
 "features": ["7 Seater Capacity", "4x4 Drive with Differential Lock", "Off-Road Capabilities", "Apple CarPlay/Android Auto", "Intelligent Mobility Safety Suite", "Spacious Interior & High Ground Clearance"],
-"gallery": ["/images/cars/nissan-terra-black-dune-front1.jpeg", "/images/cars/nissan-terra-side.jpg", "/images/cars/nissan-terra-interior.jpg"],
+"gallery": ["/images/cars/nissan-terra-black-dune-front1.jpeg"],
 "drivetrain": "2.5L I-4 4x4",
 "fuelType": "Gasoline / Petrol",
 "transmission": "Automatic"
@@ -145,30 +127,20 @@
 "fuelType": "Gasoline / Petrol",
 "transmission": "Automatic"
 },
-{
-"id": "6",
-"name": "Toyota Land Cruiser",
-"model": "300 Series V6 Turbo SUV",
-"year": 2024,
-"price": { "daily": 1500, "halfDay": 800 },
-"image": "toyota-landcruiser-white-1.jpg",
-"type": "SUV",
-"features": ["V6 Turbo Engine", "Panoramic Sunroof", "Adaptive Suspension", "360° Camera", "Premium JBL Audio", "Off-Road Modes"],
-"gallery": ["/images/cars/toyota-landcruiser-white-1.jpg", "/images/cars/toyota-landcruiser-white-2.jpg", "/images/cars/toyota-landcruiser-white-3.jpg"],
-"drivetrain": "V6 Turbo 4x4",
-"fuelType": "Gasoline / Petrol",
-"transmission": "Automatic"
-},
+
 {
 "id": "11",
 "name": "Toyota Land Cruiser",
 "model": "VX-R Edition",
 "year": 2023,
 "price": { "daily": 1500, "halfDay": 800 },
-"image": "toyota-landcruiser-vxr-white1.jpeg",
+"image": "toyota-landcruiser-vxr-white-rear3.jpeg",
 "type": "SUV",
 "features": ["VX-R Package", "Two-Row Seating", "Off-Road Suspension", "LED Lights", "Power Tailgate", "Wireless Charging"],
-"gallery": ["/images/cars/toyota-landcruiser-vxr-white1.jpeg", "/images/cars/toyota-landcruiser-vxr-side2.jpeg"],
+"gallery": [ "/images/cars/toyota-landcruiser-vxr-white-rear1.jpeg",
+"/images/cars/toyota-landcruiser-vxr-white-rear2.jpeg",
+"/images/cars/toyota-landcruiser-vxr-white-rear1.jpeg"
+],
 "drivetrain": "V6 4x4",
 "fuelType": "Gasoline / Petrol",
 "transmission": "Automatic"
@@ -222,7 +194,7 @@
 "name": "Mercedes S Class ",
 "model": "",
 "year": 2023,
-"price": { "daily": 2500, "halfDay": 1200 },
+"price": { "daily": 1500, "halfDay": 1200 },
 "image": "mercedes_s_class.jpeg",
 "type": "Luxury SUV",
 "features": ["Chauffeur Package Available", "Executive Rear Seat Package", "ENERGIZING Comfort Control", "MBUX Hyperscreen", "Burmester High-End 3D Surround Sound", "AirMATIC Air Suspension", "Soft-Close Doors"],
@@ -249,13 +221,13 @@
 {
 "id": "14",
 "name": "Mercedes Sprinter VIP",
-"model": "50-53 Seater VIP Coach",
+"model": "15 Seater VIP Coach",
 "year": 2024,
-"price": { "daily": 2400, "halfDay": 1200 },
+"price": { "daily": 2200, "halfDay": 1200 },
 "image": "luxury-coach-bus-exterior_black1.jpeg",
 "type": "Bus/Coach",
 "features": ["15 Seater Capacity", "High-Back Reclining Seats", "Individual AC Vents/Climate Control", "Onboard Entertainment (TV/DVD)", "Large Underfloor Luggage Bays", "Microphone System for Guide", "USB Charging Ports on Seats"],
-"gallery": ["/images/cars/luxury-coach-bus-exterior_black.jpeg", "/images/cars/luxury-coach-bus-exterior_black2.jpeg", "/images/cars/luxury-coach-bus-exterior3.jpeg"],
+"gallery": ["/images/cars/luxury-coach-bus-exterior_black.jpeg", "/images/cars/luxury-coach-bus-exterior_black1.jpeg", "/images/cars/luxury-coach-bus-exterior_black2.jpeg"],
 "drivetrain": "Diesel Engine",
 "fuelType": "Diesel",
 "transmission": "Automatic"
@@ -283,7 +255,7 @@
 "image": "luxury-coach-bus-exterior.jpeg",
 "type": "Bus/Coach",
 "features": ["50-53 Seater Capacity", "High-Back Reclining Seats", "Individual AC Vents", "Onboard Entertainment (TV/DVD)", "Large Underfloor Luggage Bays", "Professional Chauffeur Included"],
-"gallery": ["/images/cars/luxury-coach-bus-exterior1.jpeg", "/images/cars/luxury-coach-bus-exterior2.jpeg", "/images/cars/luxury-coach-bus-luggage.jpg"],
+"gallery": ["/images/cars/luxury-coach-bus-exterior1.jpeg"],
 "drivetrain": "Large Diesel",
 "fuelType": "Diesel",
 "transmission": "Automatic"
@@ -297,7 +269,7 @@
 "image": "toyota-coaster-white-front.jpeg",
 "type": "Minibus",
 "features": ["30 Seater Capacity", "High-Capacity AC System", "Spacious Luggage Area", "Driver & Guide Microphone", "Power Steering", "ABS Brakes"],
-"gallery": ["/images/cars/toyota-coaster-white-front.jpeg", "/images/cars/toyota-coaster-white-front1.jpeg", "/images/cars/toyota-coaster-white-rear.jpg"],
+"gallery": ["/images/cars/toyota-coaster-white-front.jpeg", "/images/cars/toyota-coaster-white-front1.jpeg"],
 "drivetrain": "Inline Diesel",
 "fuelType": "Diesel",
 "transmission": "Automatic"
