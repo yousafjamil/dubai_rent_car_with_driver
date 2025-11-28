@@ -17,7 +17,7 @@ interface Props {
 
 export default function ServicesCard({ service }: Props) {
   return (
-    <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+    <div className=" bg-[#252121]  dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
       <div className="relative h-48">
         <Image src={`/images/services/${service.image}`} alt={service.name} fill className="object-cover" />
       </div>
@@ -29,7 +29,7 @@ export default function ServicesCard({ service }: Props) {
           {/* <Link href={`/services/${service.id}`} className="flex-1 bg-primary text-white py-2 px-4 rounded hover:bg-blue-700 transition text-center">
             Details
           </Link> */}
-          <WhatsAppButton carName={service.name} message={service.whatsappMessage} /> {/* Reuse, but pass custom msg */}
+          <WhatsAppButton carName={service.name} message={service.whatsappMessage} />
         </div>
       </div>
     </div>

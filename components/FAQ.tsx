@@ -38,23 +38,25 @@ const FAQ: React.FC = () => {
   };
 
   return (
-    <section className="py-16 bg-gray-50">
+    <section className="py-16 bg-[#252121]">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-8">Frequently Asked Questions</h2>
         <div className="max-w-3xl mx-auto space-y-4">
           {faqs.map((faq, index) => (
-            <div key={index} className="bg-white rounded-lg shadow-md overflow-hidden">
+            <div key={index} className="bg-black rounded-lg shadow-md overflow-hidden">
               <button
                 onClick={() => toggleFAQ(index)}
-                className="w-full text-left p-6 font-semibold hover:bg-gray-100 transition-colors"
+                className="w-full text-left p-6 font-semibold hover:bg-red-100 transition-colors"
               >
-                {faq.question}
-                <span className={`float-right transition-transform ${openIndex === index ? 'rotate-180' : ''}`}>
+                 <p className="text-1xl font-bold  text-white"> {faq.question}</p>
+        
+               
+                <span className={`float-right bg-grey-300 transition-transform ${openIndex === index ? 'rotate-180' : ''}`}>
                   ▼
                 </span>
               </button>
               {openIndex === index && (
-                <div className="p-6 pt-0 text-gray-700">
+                <div className="p-6 pt-0 text-white-700">
                   {faq.answer}
                 </div>
               )}

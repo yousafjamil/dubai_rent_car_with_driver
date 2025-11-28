@@ -14,7 +14,7 @@ export default function SearchBar() {
   }
 
   return (
-    <form onSubmit={handleSearch} className="max-w-2xl mx-auto mb-16 p-4 bg-white/80 dark:bg-gray-800/80 rounded-lg shadow-lg backdrop-blur-md">
+    <form onSubmit={handleSearch} className="max-w-2xl mx-auto mb-16 p-4 bg-white/30 dark:bg-gray-800/80 rounded-lg shadow-lg backdrop-blur-md">
       <div className="flex flex-col md:flex-row gap-4">
         <input
           type="text"

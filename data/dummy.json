@@ -1,127 +1,182 @@
-
-
 {
 "cars": [
 {
-"id": "1",
-"name": "Toyota Fortuner",
-"model": "2.8L Diesel",
-"year": 2023,
-"price": { "daily": 450, "weekly": 2800, "monthly": 4200 },
-"image": "hightest1.jpeg",
-"type": "SUV",
-"features": ["4x4 Drive", "Leather Seats", "Sunroof", "Apple CarPlay/Android Auto", "Cruise Control", "Rear View Camera"],
-"gallery": ["/images/cars/hightest1.jpeg", "/images/cars/hightest2.jpeg", "/images/cars/hightest3.jpeg"]
-},
-{
-"id": "2",
-"name": "Toyota Coaster",
-"model": "4.0L Petrol (30 Seater)",
-"year": 2022,
-"price": { "daily": 1200, "weekly": 7500, "monthly": 26400 },
-"image": "coaster1.jpeg",
-"type": "Minibus",
-"features": ["30 Seater Capacity", "High-Capacity AC System", "Spacious Luggage Area", "Driver & Guide Microphone", "Power Steering", "ABS Brakes"],
-"gallery": ["/images/cars/coaster1.jpeg", "/images/cars/coaster2.jpeg", "/images/cars/coaster3.jpeg"]
-},
-{
-"id": "3",
-"name": "Toyota Land Cruiser",
-"model": "300 Series (V6 Turbo)",
-"year": 2024,
-"price": { "daily": 650, "weekly": 4000, "monthly": 13000 },
-"image": "gmc3.jpeg",
-"type": "SUV",
-"features": ["Full-Time 4WD", "Panoramic Sunroof", "Adaptive Cruise Control", "360° Camera", "Apple CarPlay/Android Auto", "Advanced Safety Suite"],
-"gallery": ["/images/cars/gmc1.jpeg", "/images/cars/gmc2.jpeg", "/images/cars/gmc4.jpeg"]
-},
-{
-"id": "4",
+"id": "10",
 "name": "Nissan Patrol",
-"model": "Y62 V6",
-"year": 2023,
-"price": { "daily": 500, "weekly": 3000, "monthly": 10800 },
+"model": "SUV",
+"year": 2025,
+"price": { "daily": 1300, "halfDay": 700 },
 "image": "nisan1.jpeg",
 "type": "SUV",
-"features": ["All-Mode 4WD", "Premium Leather Seats", "Large Infotainment Screen", "Blind Spot Monitor", "7 Seater", "Cool Box"],
-"gallery": ["/images/cars/nisan1.jpeg", "/images/cars/nisan2.jpeg", "/images/cars/nisan3.jpeg"]
+"features": ["All-Mode 4WD", "Dubai Skyline View Ready", "Premium Leather", "Infotainment Screen", "Blind Spot Monitor", "7 Seater"],
+"gallery": ["/images/cars/nissan-patrol-gray-burj.jpg", "/images/cars/luxury-coach-bus-luggage.jpg"]
 },
 {
 "id": "5",
 "name": "Nissan Patrol",
-"model": "Y62 Interior (Platinum Trim)",
+"model": "V6 SUV",
 "year": 2023,
-"price": { "daily": 550, "weekly": 3300, "monthly": 12000 },
-"image": "nisan2.jpeg",
+"price": { "daily": 1300, "halfDay": 700 },
+"image": "nissan-patrol-black-front.jpeg",
 "type": "SUV",
-"features": ["Platinum Package", "Ambient Lighting", "Advanced Driver Assist", "Premium Audio System", "Rear Entertainment Screens"],
-"gallery": ["/images/cars/gallery-patrol-int-1.jpg", "/images/cars/gallery-patrol-int-2.jpg"]
+"features": ["All-Mode 4WD", "Premium Leather Seats", "Large Infotainment Screen", "Blind Spot Monitor", "7 Seater", "Cool Box"],
+"gallery": ["/images/cars/nissan-patrol-black-front1.jpeg", "/images/cars/nissan-patrol-black-front4.jpeg", "/images/cars/nissan-patrol-black-front3.jpeg"]
 },
 {
+"id": "15",
+"name": "Nissan Patrol",
+"model": "SUV",
+"year": 2020,
+"price": { "daily": 900, "halfDay": 400 },
+"image": "mercedes-sprinter-vip-black.jpeg",
+"type": "VIP Van",
+"features": ["7 Seater Capacity", "Chauffeur Driven Only", "Reclining Leather Seats", "High-Speed Wi-Fi", "Mini-Fridge/Cool Box", "Large Flat-Screen Monitor", "USB Charging Ports"],
+"gallery": ["/images/cars/mercedes-sprinter-vip-black1.jpeg","/images/cars/mercedes-sprinter-vip-black.jpeg", "/images/cars/mercedes-sprinter-vip-black2.jpeg"]
+}
+,
+
+
+
+{
+"id": "9",
+"name": "Nissan Terra",
+"model": "2.5L 7-Seater SUV (X-Terra)",
+"year": 2024,
+"price": { "daily": 600, "halfDay": 350 },
+"image": "nissan-terra-black-dune-front.jpeg",
+"type": "SUV",
+"features": ["7 Seater Capacity", "4x4 Drive with Differential Lock", "Off-Road Capabilities", "Apple CarPlay/Android Auto", "Intelligent Mobility Safety Suite", "Spacious Interior & High Ground Clearance"],
+"gallery": ["/images/cars/nissan-terra-black-dune-front1.jpeg", "/images/cars/nissan-terra-side.jpg", "/images/cars/nissan-terra-interior.jpg"]
+},
+
+{
+"id": "4",
+"name": "GMC Yukon",
+"model": "SUV",
+"year": 2025,
+"price": { "daily": 1300, "halfDay": 700 },
+"image": "gmc-yukon-black-exterior3.jpeg",
+"type": "SUV",
+"features": ["Full-Time 4WD", "Panoramic Sunroof", "Adaptive Cruise Control", "360° Camera", "Apple CarPlay/Android Auto", "Advanced Safety Suite"],
+"gallery": ["/images/cars/gmc-yukon-black-exterior1.jpeg","/images/cars/gmc-yukon-black-exterior2.jpeg","/images/cars/gmc-yukon-black-exterior4.jpeg"]
+},
+
+{
+"id": "2",
+"name": "Toyota Fortuner",
+"model": "2.7L SUV",
+"year": 2020,
+"price": { "daily": 600, "halfDay": 300 },
+"image": "toyota-fortuner-white-front.jpeg",
+"type": "SUV",
+"features": ["4x4 Drive", "Leather Seats", "Sunroof", "Apple CarPlay/Android Auto", "Cruise Control", "Rear View Camera"],
+"gallery": ["/images/cars/toyota-fortuner-white-front.jpeg", "/images/cars/toyota-fortuner-white-front1.jpeg", "/images/cars/toyota-fortuner-white-front2.jpeg", "/images/cars/toyota-fortuner-white-front3.jpeg"]
+},
+
+{
 "id": "6",
-"name": "Toyota Hiace",
-"model": "2.7L Petrol (15 Seater)",
-"year": 2022,
-"price": { "daily": 380, "weekly": 2400, "monthly": 5000 },
-"image": "toyata1.jpeg",
-"type": "Van",
-"features": ["15 Seater Capacity", "Separate Rear AC", "Power Steering", "ABS Brakes", "Automatic Transmission", "Spacious Interior"],
-"gallery": ["/images/cars/gallery-hiace-1.jpg", "/images/cars/gallery-hiace-2.jpg", "/images/cars/gallery-hiace-3.jpg"]
+"name": "Toyota Land Cruiser",
+"model": "300 Series V6 Turbo SUV",
+"year": 2024,
+"price": { "daily": 1500, "halfDay": 800 },
+"image": "toyota-landcruiser-white-1.jpg",
+"type": "SUV",
+"features": ["V6 Turbo Engine", "Panoramic Sunroof", "Adaptive Suspension", "360° Camera", "Premium JBL Audio", "Off-Road Modes"],
+"gallery": ["/images/cars/toyota-landcruiser-white-1.jpg", "/images/cars/toyota-landcruiser-white-2.jpg", "/images/cars/toyota-landcruiser-white-3.jpg"]
+},
+{
+"id": "11",
+"name": "Toyota Land Cruiser",
+"model": "VX-R Edition",
+"year": 2023,
+"price": { "daily": 1500, "halfDay": 800 },
+"image": "toyota-landcruiser-vxr-white1.jpeg",
+"type": "SUV",
+"features": ["VX-R Package", "Two-Row Seating", "Off-Road Suspension", "LED Lights", "Power Tailgate", "Wireless Charging"],
+"gallery": ["/images/cars/toyota-landcruiser-vxr-white1.jpeg", "/images/cars/toyota-landcruiser-vxr-side2.jpeg"]
 },
 {
 "id": "7",
-"name": "Nissan Armada",
-"model": "5.6L V8 (Titanium)",
-"year": 2024,
-"price": { "daily": 600, "weekly": 3600, "monthly": 11000 },
-"image": "nissan_armada_silver1.jpeg",
-"type": "SUV",
-"features": ["V8 Engine Power", "7-Seater/8-Seater Option", "Sunroof", "Rear Entertainment System", "Intelligent Around View Monitor"],
-"gallery": ["/images/cars/gallery-armada-1.jpg", "/images/cars/gallery-armada-2.jpg", "/images/cars/gallery-armada-3.jpg"]
+"name": "Range Rover",
+"model": "Vogue SUV",
+"year": 2023,
+"price": { "daily": 2000, "halfDay": 1150 },
+"image": "range-rover-vogue-black.jpg",
+"type": "Luxury SUV",
+"features": ["Full-Time 4WD", "Panoramic Sunroof", "Meridian Audio System", "Adaptive Dynamics", "Terrain Response 2", "Executive Class Seating"],
+"gallery": ["/images/cars/range-rover-vogue-black-1.jpg", "/images/cars/range-rover-vogue-black-2.jpg", "/images/cars/range-rover-vogue-interior.jpg"]
 },
+{
+"id": "17",
+"name": "Mercedes S Class ",
+"model": "",
+"year": 2023,
+"price": { "daily": 2500, "halfDay": 1200 },
+"image": "mercedes_s_class.jpeg",
+"type": "Luxury SUV",
+"features": ["Chauffeur Package Available", "Executive Rear Seat Package", "ENERGIZING Comfort Control", "MBUX Hyperscreen", "Burmester High-End 3D Surround Sound", "AirMATIC Air Suspension", "Soft-Close Doors"],"gallery": ["/images/cars/mercedes_s_class.jpeg","/images/cars/mercedes_s_class1.jpeg"]
+},
+
+
 {
 "id": "8",
 "name": "Toyota Prado",
 "model": "2.7L Petrol TXL",
 "year": 2023,
-"price": { "daily": 450, "weekly": 2800, "monthly": 7200 },
-"image": "nisann_white1.jpeg",
+"price": { "daily": 700, "halfDay": 350 },
+"image": "toyota-prado-white-front.jpeg",
 "type": "SUV",
 "features": ["TXL Trim Features", "Crawl Control", "Multi-Terrain Select", "Leather Interior", "7-Seater", "Push Start/Keyless Entry"],
-"gallery": ["/images/cars/gallery-prado-1.jpg", "/images/cars/gallery-prado-2.jpg"]
-},
+"gallery": ["/images/cars/toyota-prado-white-front1.jpeg", "/images/cars/toyota-prado-white-front2.jpeg", "/images/cars/toyota-prado-white-front3.jpeg"]
+}
+,
+
 {
-"id": "9",
-"name": "Nissan Sunny",
-"model": "1.6L Automatic",
-"year": 2022,
-"price": { "daily": 85, "weekly": 550, "monthly": 1599 },
-"image": "nisann_white2.jpeg",
-"type": "Sedan",
-"features": ["Keyless Entry", "Touchscreen Infotainment", "Rear Camera", "Fuel Efficient", "Bluetooth Connectivity", "Power Windows"],
-"gallery": ["/images/cars/gallery-sunny-1.jpg", "/images/cars/gallery-sunny-2.jpg", "/images/cars/gallery-sunny-3.jpg"]
-},
-{
-"id": "10",
-"name": "Toyota Camry",
-"model": "2.5L Hybrid",
-"year": 2024,
-"price": { "daily": 180, "weekly": 1200, "monthly": 3300 },
-"image": "nisann_white5.jpeg",
-"type": "Sedan",
-"features": ["Hybrid Powertrain", "Excellent Fuel Economy", "Adaptive Headlights", "Wireless Charging Pad", "JBL Premium Audio"],
-"gallery": ["/images/cars/gallery-camry-1.jpg", "/images/cars/gallery-camry-2.jpg"]
-},
-{
-"id": "17",
-"name": "Luxury Coach Bus",
+"id": "14",
+"name": "Mercedes Sprinter VIP",
 "model": "50-53 Seater VIP Coach",
 "year": 2024,
-"price": { "daily": 1400, "weekly": 7500, "monthly": 20000 },
+"price": { "daily": 2400, "halfDay": 1200 },
 "image": "luxury-coach-bus-exterior_black1.jpeg",
 "type": "Bus/Coach",
-"features": ["50-53 Seater Capacity", "High-Back Reclining Seats", "Individual AC Vents/Climate Control", "Onboard Entertainment (TV/DVD)", "Large Underfloor Luggage Bays", "Microphone System for Guide", "USB Charging Ports on Seats"],
+"features": ["15 Seater Capacity", "High-Back Reclining Seats", "Individual AC Vents/Climate Control", "Onboard Entertainment (TV/DVD)", "Large Underfloor Luggage Bays", "Microphone System for Guide", "USB Charging Ports on Seats"],
 "gallery": ["/images/cars/luxury-coach-bus-exterior_black.jpeg", "/images/cars/luxury-coach-bus-exterior_black2.jpeg", "/images/cars/luxury-coach-bus-exterior3.jpeg"]
+},
+{
+"id": "3",
+"name": "Toyota Hiace",
+"model": "15 Seater Van (High Roof)",
+"year": 2022,
+"price": { "daily": 700, "halfDay": 380 },
+"image": "toyota-hiace-white-curtains4.jpeg",
+"type": "Van",
+"features": ["15 Seater Capacity", "Separate Rear AC", "Power Steering", "ABS Brakes", "Automatic Transmission", "Spacious Interior"],
+"gallery": ["/images/cars/toyota-hiace-white-curtains2.jpeg", "/images/cars/toyota-hiace-white-curtains3.jpeg", "/images/cars/toyota-hiace-white-curtains1.jpeg"]
+},
+{
+"id": "13",
+"name": "Luxury Coach Bus",
+"model": "50-53 Seater (Full-Size Coach)",
+"year": 2024,
+"price": { "daily": 1400, "halfDay": 700 },
+"image": "luxury-coach-bus-exterior.jpeg",
+"type": "Bus/Coach",
+"features": ["50-53 Seater Capacity", "High-Back Reclining Seats", "Individual AC Vents", "Onboard Entertainment (TV/DVD)", "Large Underfloor Luggage Bays", "Professional Chauffeur Included"],
+"gallery": ["/images/cars/luxury-coach-bus-exterior1.jpeg", "/images/cars/luxury-coach-bus-exterior2.jpeg", "/images/cars/luxury-coach-bus-luggage.jpg"]
+},
+
+{
+"id": "1",
+"name": "Toyota Coaster",
+"model": "30 Seater Minibus",
+"year": 2022,
+"price": { "daily": 900, "halfDay": 450 },
+"image": "toyota-coaster-white-front.jpeg",
+"type": "Minibus",
+"features": ["30 Seater Capacity", "High-Capacity AC System", "Spacious Luggage Area", "Driver & Guide Microphone", "Power Steering", "ABS Brakes"],
+"gallery": ["/images/cars/toyota-coaster-white-front.jpeg", "/images/cars/toyota-coaster-white-front1.jpeg", "/images/cars/toyota-coaster-white-rear.jpg"]
 }
+
+
 ]
 }

@@ -16,6 +16,7 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-bold mb-4">Dubai Rental Car With Driver</h3>
             <p className="text-gray-300">Premium car rental with driver in UAE. Explore Dubai in style.</p>
+          
           </div>
           <div>
             <h4 className="font-semibold mb-4">Quick Links</h4>
@@ -34,11 +35,15 @@ export default function Footer() {
                   <link.icon />
                 </a>
               ))}
+              
             </div>
+          <p className="font-semibold mt-4">Office Location: Galadari Building Office No SF.07, Near Abu Hail Metro Station ,Dubai</p>
+
           </div>
         </div>
         <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-300">
           <p>&copy; 2025 Dubai Rental Car With Driver. All rights reserved.</p>
+          
         </div>
       </div>
     </footer>

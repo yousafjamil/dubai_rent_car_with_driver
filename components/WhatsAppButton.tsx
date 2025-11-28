@@ -1,5 +1,6 @@
 // In components/WhatsAppButton.tsx, updated with back-and-forth slide animation on hover and attractive gradient colors:
 import React from 'react';
+import { FaWhatsapp } from 'react-icons/fa';
 
 interface Props {
   carName?: string;

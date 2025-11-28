@@ -1,58 +1,49 @@
 'use client'
 import { useState } from 'react'
 import Link from 'next/link'
-import { FiMenu, FiX, FiSun, FiMoon } from 'react-icons/fi'
+import { FiArrowLeft, FiPhone, FiMenu, FiX } from 'react-icons/fi'
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
-  const [darkMode, setDarkMode] = useState(false)
-
-  const toggleDarkMode = () => {
-    setDarkMode(!darkMode)
-    document.documentElement.classList.toggle('dark')
-  }
 
   return (
-    <nav className="sticky top-0 z-50 bg-white/80 dark:bg-gray-900/80 backdrop-blur-md shadow-lg">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
-          <Link href="/" className="text-2xl font-bold text-primary">
-            Dubai Rental Car With Driver
-          </Link>
-          <div className="hidden md:flex space-x-8">
-            <Link href="/" className="hover:text-primary transition">Home</Link>
-            <Link href="/cars" className="hover:text-primary transition">Cars</Link>
-            <Link href="/about" className="hover:text-primary transition">About</Link>
-            <Link href="/services" className="hover:text-primary transition">Services</Link>
-            <Link href="/contact" className="hover:text-primary transition">Contact</Link>
-          </div>
-          {/* <div className="flex items-center space-x-4">
-            <button onClick={toggleDarkMode} className="p-2 rounded-lg hover:bg-gray-300 dark:hover:bg-gray-700">
-              {darkMode ? <FiSun /> : <FiMoon />}
-            </button>
-            <button
-              className="md:hidden p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700"
-              onClick={() => setIsOpen(!isOpen)}
-            >
-              {isOpen ? <FiX /> : <FiMenu />}
-            </button>
-          </div> */}
-        </div>
-        {isOpen && (
-          <div className="md:hidden py-2 space-y-2">
-            <Link href="/" className="block hover:text-primary px-2 py-1" onClick={() => setIsOpen(false)}>Home</Link>
-            <Link href="/cars" className="block hover:text-primary px-2 py-1" onClick={() => setIsOpen(false)}>Cars</Link>
-           
-            <Link href="/about" className="block hover:text-primary px-2 py-1" onClick={() => setIsOpen(false)}>About</Link>
-           
-            <Link href="/services" className="block hover:text-primary px-2 py-1" onClick={() => setIsOpen(false)}>Services</Link>
-
-
-
-            <Link href="/contact" className="block hover:text-primary px-2 py-1" onClick={() => setIsOpen(false)}>Contact</Link>
-          </div>
-        )}
+    <nav className="sticky top-0 z-50 navbar bg-black/80 backdrop-blur-md border-b border-gold/20 h-16 flex items-center px-4">
+      {/* Left Icons (Back Arrow & Phone - Like Pic) */}
+      <div className="flex items-center space-x-3">
+        <Link href="/" className="navbar-icon p-2 rounded-full bg-black/20 text-gold hover:bg-gold/10">
+          <FiArrowLeft className="w-5 h-5" />
+        </Link>
+        <Link href="tel:+971547175496" className="navbar-icon p-2 rounded-full bg-red-500/20 text-red-400 hover:bg-red-500/30">
+          <FiPhone className="w-5 h-5" />
+        </Link>
       </div>
+
+      {/* Centered Logo */}
+      <Link href="/" className="absolute left-1/2 transform -translate-x-1/2 text-xl font-bold text-gold uppercase tracking-wide">
+        Cars With Driver
+      </Link>
+
+      {/* Right Menu Toggle */}
+      <div className="ml-auto flex items-center">
+        <button
+          className="navbar-icon p-2 rounded-full bg-black/20 text-gold hover:bg-gold/10 transition-all duration-200"
+          onClick={() => setIsOpen(!isOpen)}
+          aria-label="Toggle Menu"
+        >
+          {isOpen ? <FiX className="w-5 h-5" /> : <FiMenu className="w-5 h-5" />}
+        </button>
+      </div>
+
+      {/* Mobile Menu Dropdown */}
+      {isOpen && (
+        <div className="absolute top-full left-0 right-0 bg-black/95 py-4 space-y-2 text-white border-t border-gold/20">
+          <Link href="/" className="block px-4 py-2 hover:bg-gold/10 transition" onClick={() => setIsOpen(false)}>Home</Link>
+          <Link href="/cars" className="block px-4 py-2 hover:bg-gold/10 transition" onClick={() => setIsOpen(false)}>Cars</Link>
+          <Link href="/about" className="block px-4 py-2 hover:bg-gold/10 transition" onClick={() => setIsOpen(false)}>About</Link>
+          <Link href="/services" className="block px-4 py-2 hover:bg-gold/10 transition" onClick={() => setIsOpen(false)}>Services</Link>
+          <Link href="/contact" className="block px-4 py-2 hover:bg-gold/10 transition" onClick={() => setIsOpen(false)}>Contact</Link>
+        </div>
+      )}
     </nav>
   )
 }
