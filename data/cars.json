@@ -128,23 +128,7 @@
 "transmission": "Automatic"
 },
 
-{
-"id": "11",
-"name": "Toyota Land Cruiser",
-"model": "VX-R Edition",
-"year": 2023,
-"price": { "daily": 1500, "halfDay": 800 },
-"image": "toyota-landcruiser-vxr-white-rear3.jpeg",
-"type": "SUV",
-"features": ["VX-R Package", "Two-Row Seating", "Off-Road Suspension", "LED Lights", "Power Tailgate", "Wireless Charging"],
-"gallery": [ "/images/cars/toyota-landcruiser-vxr-white-rear1.jpeg",
-"/images/cars/toyota-landcruiser-vxr-white-rear2.jpeg",
-"/images/cars/toyota-landcruiser-vxr-white-rear1.jpeg"
-],
-"drivetrain": "V6 4x4",
-"fuelType": "Gasoline / Petrol",
-"transmission": "Automatic"
-},
+
 {
 "id": "7",
 "name": "Range Rover",
@@ -221,11 +205,11 @@
 {
 "id": "14",
 "name": "Mercedes Sprinter VIP",
-"model": "15 Seater VIP Coach",
+"model": "15 Seater VIP Van",
 "year": 2024,
 "price": { "daily": 2200, "halfDay": 1200 },
 "image": "luxury-coach-bus-exterior_black1.jpeg",
-"type": "Bus/Coach",
+"type": "",
 "features": ["15 Seater Capacity", "High-Back Reclining Seats", "Individual AC Vents/Climate Control", "Onboard Entertainment (TV/DVD)", "Large Underfloor Luggage Bays", "Microphone System for Guide", "USB Charging Ports on Seats"],
 "gallery": ["/images/cars/luxury-coach-bus-exterior_black.jpeg", "/images/cars/luxury-coach-bus-exterior_black1.jpeg", "/images/cars/luxury-coach-bus-exterior_black2.jpeg"],
 "drivetrain": "Diesel Engine",
@@ -264,7 +248,7 @@
 "id": "1",
 "name": "Toyota Coaster",
 "model": "30 Seater Minibus",
-"year": 2022,
+"year": 2016,
 "price": { "daily": 900, "halfDay": 450 },
 "image": "toyota-coaster-white-front.jpeg",
 "type": "Minibus",

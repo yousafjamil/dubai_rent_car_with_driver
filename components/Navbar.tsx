@@ -13,7 +13,7 @@ export default function Navbar() {
         <Link href="/" className="navbar-icon p-2 rounded-full bg-black/20 text-gold hover:bg-gold/10">
           <FiArrowLeft className="w-5 h-5" />
         </Link>
-        <Link href="tel:+971547175496" className="navbar-icon p-2 rounded-full bg-red-500/20 text-red-400 hover:bg-red-500/30">
+        <Link href="tel:+971556046196" className="navbar-icon p-2 rounded-full bg-red-500/20 text-red-400 hover:bg-red-500/30">
           <FiPhone className="w-5 h-5" />
         </Link>
       </div>

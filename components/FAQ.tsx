@@ -9,19 +9,19 @@ const FAQ: React.FC = () => {
   const faqs = [
     {
       question: 'How much does it cost to rent a car in Dubai?',
-      answer: `Our rates start at AED 150/day for economy sedans like Nissan Sunny. Luxury SUVs like Toyota Fortuner are AED 250/day, and premium options like Nissan Patrol are AED 500/day. Weekly/monthly discounts available—check our fleet for details.`,
+      answer: `Our rates start at AED 150/day for economy sedans like Nissan Sunny. Luxury SUVs like Toyota Fortuner are AED 300/day, and premium options like Nissan Patrol are AED 600/day. Weekly/monthly discounts available—check our fleet for details.`,
     },
     {
       question: 'Do you offer car rental with driver in UAE?',
-      answer: `Yes! All rentals include an English-speaking driver for safety. Perfect for airport transfers or desert safaris with vehicles like Toyota Land Cruiser (AED 600/day). Free within Dubai; extra for Abu Dhabi.`,
+      answer: `Yes! All rentals include an English-speaking driver for safety. Perfect for airport transfers or desert safaris with vehicles like Toyota Land Cruiser (AED 1200/day) with driver. Free within Dubai; extra for Abu Dhabi.`,
     },
     {
       question: 'What types of cars do you have for rental?',
-      answer: `We have a diverse fleet: SUVs (Toyota Fortuner, Nissan Patrol, Land Cruiser), minibuses (Toyota Coaster, Hiace), sedans (Toyota Camry, Nissan Sunny), and more. All models from 2022-2024, fully insured.`,
+      answer: `We have a diverse fleet: SUVs (Toyota Fortuner, Nissan Patrol, Land Cruiser), minibuses (Toyota Coaster, Hiace), sedans (Toyota Camry, Nissan Sunny), and more. All models from 2022-2026, fully insured.`,
     },
     {
       question: 'Can I rent a minibus for groups in Dubai?',
-      answer: `Absolutely! Our Toyota Coaster (AED 800/day) seats 20+ and is ideal for tours or events. Includes AC and driver—book for city sightseeing or desert trips.`,
+      answer: `Absolutely! Our Toyota Coaster (AED 900/day) seats 20+ and is ideal for tours or events. Includes AC and driver—book for city sightseeing or desert trips.`,
     },
     {
       question: 'What documents do I need to rent a car?',
@@ -29,7 +29,7 @@ const FAQ: React.FC = () => {
     },
     {
       question: 'How do I book a car online?',
-      answer: `Easy! Use our search bar for dates/location, select from fleet (e.g., Prado SUV at AED 300/day), fill form, and pay securely. Confirmation via email/SMS. 24/7 support at +971-50-1234567.`,
+      answer: `Easy! Use our search bar for dates/location, select from fleet , fill form, and pay securely. Confirmation via email/SMS. 24/7 support at 00971556046196.`,
     },
   ];
 

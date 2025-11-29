@@ -190,6 +190,24 @@
 "drivetrain": "V8 or V6 4x4",
 "fuelType": "Gasoline / Petrol",
 "transmission": "Automatic"
+},
+
+{
+"id": "11",
+"name": "Toyota Land Cruiser",
+"model": "VX-R Edition",
+"year": 2023,
+"price": { "daily": 1500, "halfDay": 800 },
+"image": "toyota-landcruiser-vxr-white-rear3.jpeg",
+"type": "SUV",
+"features": ["VX-R Package", "Two-Row Seating", "Off-Road Suspension", "LED Lights", "Power Tailgate", "Wireless Charging"],
+"gallery": [ "/images/cars/toyota-landcruiser-vxr-white-rear1.jpeg",
+"/images/cars/toyota-landcruiser-vxr-white-rear2.jpeg",
+"/images/cars/toyota-landcruiser-vxr-white-rear1.jpeg"
+],
+"drivetrain": "V6 4x4",
+"fuelType": "Gasoline / Petrol",
+"transmission": "Automatic"
 }
 ]
 }

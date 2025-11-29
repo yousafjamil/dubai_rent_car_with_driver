@@ -57,7 +57,7 @@ export default async function CarDetails({ params }: Props) { // Made async
             <div className="bg-gray-90 bg-black p-6 rounded-lg">
               <h3 className="font-semibold mb-4">Pricing</h3>
               <div className="space-y-2">
-                <p className="text-lg text-white">Daily: <span className="font-bold text-secondary">AED {car.price.daily}</span></p>
+                <p className="text-lg text-white">Daily: <span className="font-bold text-secondary">AED {car.price.daily} (10 hours) daily</span></p>
                 {/* <p className="text-lg text-white">Half Day: <span className="font-bold text-secondary">AED {car.price.halfDay}</span></p> */}
               </div>
             </div>

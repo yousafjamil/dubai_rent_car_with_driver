@@ -13,7 +13,7 @@ export default function WhatsAppButton({
   message = `Hi, I want to book ${carName}.`, 
   className = '' 
 }: Props) {
-  const phone = '971547175496'; // Your WhatsApp number (without +)
+  const phone = '971556046196'; // Your WhatsApp number (without +)
   const whatsappUrl = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
 
   return (
@@ -50,23 +50,4 @@ export default function WhatsAppButton({
   );
 }
 
-// // In components/WhatsAppButton.tsx, update the interface and usage:
-// interface Props {
-//   carName?: string
-//   message?: string // New: custom message
-// }
 
-// export default function WhatsAppButton({ carName = 'a service', message = `Hi, I want to book ${carName}.` }: Props) {
-//   const whatsappUrl = `https://wa.me/971547175496?text=${encodeURIComponent(message)}`
-
-//   return (
-//     <a
-//       href={whatsappUrl}
-//       target="_blank"
-//       rel="noopener"
-//       className="bg-green-500 text-white py-2 px-4 rounded hover:bg-green-600 transition flex items-center justify-center whitespace-nowrap"
-//     >
-//       Book Now
-//     </a>
-//   )
-// }
