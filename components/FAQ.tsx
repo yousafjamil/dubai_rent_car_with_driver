@@ -21,7 +21,7 @@ const FAQ: React.FC = () => {
     },
     {
       question: 'Can I rent a minibus for groups in Dubai?',
-      answer: `Absolutely! Our Toyota Coaster (AED 900/day) seats 20+ and is ideal for tours or events. Includes AC and driver—book for city sightseeing or desert trips.`,
+      answer: `Absolutely! Our Toyota Coaster (AED 900/day) seats 30 and is ideal for tours or events. Includes AC and driver—book for city sightseeing or desert trips.`,
     },
     {
       question: 'What documents do I need to rent a car?',

@@ -20,7 +20,7 @@ export default function Navbar() {
 
       {/* Centered Logo */}
       <Link href="/" className="absolute left-1/2 transform -translate-x-1/2 text-xl font-bold text-gold uppercase tracking-wide">
-        Cars With Driver
+       Dubai Car Rental With Driver
       </Link>
 
       {/* Right Menu Toggle */}

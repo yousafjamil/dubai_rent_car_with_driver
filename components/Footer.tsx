@@ -5,7 +5,7 @@ import { FaTiktok } from 'react-icons/fa'
 export default function Footer() {
   const socialLinks = [
     { icon: FiInstagram, href: 'https://www.instagram.com/dubaicarrantal/?igsh=a2RyNncxcjR2cmVo#', label: 'Instagram' },
-    { icon: FiFacebook, href: 'https://www.facebook.com/dubai.car.rantal', label: 'Facebook' },
+    { icon: FiFacebook, href: 'https://www.facebook.com/profile.php?id=100065672611606', label: 'Facebook' },
     { icon: FaTiktok, href: 'https://www.tiktok.com/@dubai.car.rental8?_r=1&_t=ZS-91k1LQWwbqu', label: 'TikTok' },
   ]
 
